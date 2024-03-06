@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* Navigation Bar */
+nav{
+    height: auto;
+    width: 100vw;
+}
+#nav-1{
+    background-image:linear-gradient(to right, white, crimson 50%);
+}
+#nav-image img{
+    height: 50px;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#nav-list{
+    text-align: right;
+}
+#nav-list ul{
+    margin-top: -35px;
+    list-style: none;
+}
+#nav-list li{
+    display: inline-block;
+    margin-right: 25px;
+    padding-bottom: 25px;
+}
+#nav-list a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+#nav-list a:hover{
+    text-decoration: underline;
+}
+#nav-2{
+    height: 25vh;
+    width: 100vw;
+    background-image: url(media/nav-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: -20px;
+}
+#nav-2 h1{
+    text-align: center;
+    padding-top: 70px;
+}
+/* Main */
+main{
+    height: auto;
+    width: 100vw;
+    /* background-color: crimson; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+main p{
+    color: grey;
+    font-size: 1.5rem;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    padding: 0px 150px;
+}
+main h1{
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+main h1:hover{
+    color: orangered;
+}
+main img{
+    padding-top: 30px;
+}
+#card-1{
+    background-color: whitesmoke;
+}
+#card-2{
+    background-image: linear-gradient(to bottom right, crimson 50%, black);
+}
+#card-2 p{
+    color: white;
+}
+#card-3{
+    background-color: whitesmoke;
+}
+#card-4{
+    background-image: linear-gradient(to bottom right, crimson 50%, black);
+}
+#card-4 p{
+    color: white;
+}
+/* Footer */
+footer{
+    margin-top: -16px;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+#contact-list{
+    text-align: center;
+}
+#contact-list li{
+    display: inline-block;
+    margin: 0px 50px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+#contact-list a{
+    color: white;
+    font-size: 1.2rem;
+}
+#contact-list li:hover{
+    box-shadow: 0px 0px 10px grey;
+}

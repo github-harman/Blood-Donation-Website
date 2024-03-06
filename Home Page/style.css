@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* Navigation Bar */
+nav{
+    height: auto;
+    width: 100vw;
+    /* background-color: crimson; */
+    background-image: linear-gradient(to left, crimson 50%, whitesmoke);
+}
+#nav-image img{
+    height: 50px;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#nav-list{
+    text-align: right;
+}
+#nav-list ul{
+    margin-top: -35px;
+    list-style: none;
+}
+#nav-list li{
+    display: inline-block;
+    margin-right: 25px;
+    padding-bottom: 25px;
+}
+#nav-list a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+#nav-list a:hover{
+    text-decoration: underline;
+}
+/* Main */
+main{
+    height: auto;
+    width: 100vw;
+    /* background-color: brown; */
+    margin-top: -16px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#card-1{
+    height: 55vh;
+    color: black;
+    background-color: whitesmoke;
+}
+#card-1 img{
+    height: 55vh;
+    width:500px;
+}
+#card1-heading{
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#card1-heading:hover{
+    color: orangered;
+}
+#card1-para{
+    padding-left: 25px;
+    font-size: 1.3rem;
+    word-spacing: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+#card-2{
+    height: 55vh;
+    background-image: linear-gradient(to bottom right, crimson 40%, black);
+    color: black;
+}
+#card2-heading{
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#card2-heading:hover{
+    color: orangered;
+}
+#card2-para{
+    padding-left: 25px;
+    font-size: 1.3rem;
+    word-spacing: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+#card-2 img{
+    height: 55vh;
+    width: 534px;
+}
+#card-3{
+    height: 55vh;
+    background-color: whitesmoke;
+    color: black;
+}
+#card3-heading{
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#card3-heading:hover{
+    color: orangered;
+}
+#card3-para{
+    padding-left: 25px;
+    font-size: 1.3rem;
+    word-spacing: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+#card-3 img{
+    height: 55vh;
+    width: 500px;
+}
+#youtube-video iframe{
+    height: 80vh;
+    width: 100vw;
+}
+/* Footer */
+footer{
+    margin-top: -16px;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+#contact-list{
+    text-align: center;
+}
+#contact-list li{
+    display: inline-block;
+    margin: 0px 50px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+#contact-list a{
+    color: white;
+    font-size: 1.2rem;
+}
+#contact-list li:hover{
+    box-shadow: 0px 0px 10px grey;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Donation Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="nav-1">
+                <div id="nav-image">
+                    <img src="Media/header1.png" alt="">
+                </div>
+                <div id="nav-list">
+                    <ul>
+                        <li><a href="../Home Page/hompage.html">Home</a></li>
+                        <li><a href="../Facts/facts.html">Facts</a></li>
+                        <li><a href="../How to Donate/howtodonate.html">How To Donate</a></li>
+                        <li><a href="../Precaution During Blood Donation/precautions.html">Precautions</a></li>
+                        <li><a href="../Blood Centre/bloodcenter.html">Donation Center</a></li>
+                        <li><a href="../Donation Form/donationform.html">Donation Form</a></li>
+                        <li><a href="../Campaign/Campaign.html">Campaign</a></li>
+                        <li><a href="../Gallery/gallery.html">Gallery</a></li>
+                        <li><a href="../FAQ/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div id="nav-2">
+                    <h1>DONATION <span style="color: crimson;">FORM</span></h1>
+                </div>    
+        </nav>
+
+        <!-- Main -->
+        <main>
+            <center>
+                <font size="4">
+                <form style="padding: 20px 0px;" method="POST">
+                    <table border="2" cellpadding="15" cellspacing="4" style="border: 2px dashed whitesmoke; color: rgba(0, 0, 0, 0.885);">
+                        <tr>
+                            <th>First Name</th>
+                            <td><input type="text" id="ftname" placeholder="First Name" required style="background-color: whitesmoke; border: 1px solid black; padding: 10px 75px 10px 10px;"></td>
+                        </tr>
+                        <tr>
+                            <th>Last Name</th>
+                            <td><input type="text" id="ltname" placeholder="Last Name" required style="background-color: whitesmoke; border: 1px solid black; padding: 10px 75px 10px 10px;"></td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td>
+                                <input type="number" value="18" id ="ageinput" placeholder="Enter your age" required style="padding: 10px 75px 10px 10px; background-color: whitesmoke; border: 1px solid black;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td>
+                                <input type="radio" name="Gender" id="Male" checked value="Male">
+                                <label for="Male">Male</label>
+                                <input type="radio" name="Gender" id="Female" value="Female">
+                                <label for="Female">Female</label>
+                                <input type="radio" name="Gender" id="Other" value="Other">
+                                <label for="Other">Other</label>
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Blood Group</th>
+                            <td>
+                                <label for="hobby">Choose your blood group:</label>
+                                <select name="hobby" id="hobby" style="background-color: whitesmoke; border: 1px solid black;">
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>State</th>
+                            <td>
+                                <label for="state"></label>
+                                <select name="state" id="state" style="background-color: whitesmoke; border: 1px solid black; padding: 10px 110px 10px 10px;">
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Punjab" selected>Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>
+                                <textarea name="Address" id="Address" cols="30" rows="5" placeholder="Enter Your Address Here" style=" padding: 5px 15px 0px 10px; background-color: whitesmoke; border: 1px solid black;"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Contact Number</th>
+                            <td>
+                                <input type="number" placeholder="Enter your phone number" required style="padding: 10px 75px 10px 10px; background-color: whitesmoke; border: 1px solid black;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>E-Mail</th>
+                            <td>
+                                <input type="email" placeholder="Enter your E-Mail ID" required style="padding: 10px 75px 10px 10px; background-color: whitesmoke; border: 1px solid black;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Date Of Birth</th>
+                            <td>
+                                <input type="date" required style="padding: 10px 103px 10px 10px; background-color: whitesmoke; border: 1px solid black;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Feedback</th>
+                            <td>
+                                <textarea name="feedback" id="Feedback" cols="30" rows="5" placeholder="Enter Your Address Here" style="padding: 5px 15px 0px 10px;; background-color: whitesmoke; border: 1px solid black;"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                </font>
+                <form action="../Campaign/Campaign.html">
+                    <button id="proceed-btn" type="submit">Proceed Now</button>
+                </form>
+                </center>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div>
+                <ul id="contact-list">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.googleplus.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            var p = prompt("Enter Your Age...")
+            if(p<18){
+                alert("Age Eligibility Doesn't Met Our Requirement")
+                location.reload()
+            }else if(p>=18){
+                alert("Age Eligibility Met")
+            }
+
+            document.getElementById("ftname").addEventListener('keypress', function(event){
+                var x = event.keyCode
+                if(x >= 48 && x <= 57){
+                    alert("You Entered A Number")
+                }
+            })
+
+            document.getElementById("ltname").addEventListener('keypress', function(event){
+                var x = event.keyCode
+                if(x >= 48 && x <= 57){
+                    alert("You Entered A Number")
+                }
+            })
+
+            document.getElementById("proceed-btn").addEventListener("click", function(){
+                if(document.getElementById("ageinput").value < 18){
+                    alert("Age Eligibility Doesn't Met. Please Go Back And Refill The Form")
+                }else{
+                    alert("Thank You For Registration")
+                }
+            })
+        </script>
+    </body>
+</html>
